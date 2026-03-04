@@ -2,21 +2,22 @@
   "name": "matrix",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "lodash": "^4.17.5",
-    "prettier": "^1.10.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.1",
-    "redux": "^3.7.2"
-  },
   "homepage": "https://jasofalcon.github.io/matrix/",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
+    "prettier": "^1.10.2",
+    "vite": "^5.1.0"
   }
 }
